@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Tip Calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Import-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@700&display=swap" rel="stylesheet">
+   
+  </head>
+  <body id="dm"class="bg-dark" >
+    <div class="form-check form-switch mx-4" id="btntog">
+      <button type="button" class="btn btn-secondary" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="myFunction()" id="tog">
+        Dark
+      </button>
+
+      <button type="button" class="btn btn-light" data-toggle="button" aria-pressed="false" autocomplete="off" onclick="myFunction2()" id="tog2">
+        Light
+      </button>
+    </div>
+    
+    <div class="iphone">
+      
+      <div class="con">
+        <div class="app" id="oop">
+          <h3>Credit to Santi for Idea</h3>
+          <div class="tc">
+            <button class="appbutt" type="submit" onclick="myFunction3()">Tip Calc</button>
+            <a href=" " id="summon" onclick="myFunction3()"></a>
+          </div>
+        </div>
+        <div class="container" id="dm2">
+              <div class="card card-body text-center mt-5" id="getit">
+                <div id="p1">
+                  <h1 class="heading display-5 pb-3">Tip Calculator</h1>
+                <form id="tip-form">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <select id="current">
+                        <option>$</option>
+                        <option>€</option>
+                      </select>
+                      
+                      <input type="number" class="form-control" id="billTotal" placeholder="Enter your bill amount.">
+                    </div>                
+                  </div>
+    
+                 
+                  
+                  
+                  <div class="form-group-tipPersent">
+                    <div class="input-group">
+                      <label for="">Tip:</label>
+    
+    
+                      <input type="range" class="form-control" id="tipInput" value="0">
+                      <span class="input-group-addon" id="tipOutput">0%</span>
+                    </div>
+                    
+                    <div class="contain">
+                      <div class="sub">
+                        <button class="btn" id="revert" type="button">Dollar</button>
+                        <button class="btn" id="submit" type="button">Euro</button>
+                        <button class="btn" id="reset" type="reset">Reset</button>
+                      </div>
+                    </div>
+                    
+                  </div>
+    
+                  </form>
+                  <hr id="dm3">
+                  </div>
+              </div>
+              
+              
+              
+              
+              <!-- RESULTS -->
+              
+              <div id="results" class="pt-4" id="dm4">
+                <div class="card card-body text-center mt-5" id="plus">
+                  <h5>Results</h5>
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon">Tip amount</span>
+                    <input type="number" class="form-control" id="tipAmount" disabled>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon">Total Bill with Tip</span>
+                    <input type="number" class="form-control" id="totalBillWithTip" disabled>
+                    </div>
+                  </div>
+                </div>
+                  <span class="dot"></span>
+                </div>
+                
+                  
+                </div>
+              </div>
+              <div class="reset">
+              </div>
+              
+              <a class="homebutton" href="" id="dis">
+              </div></a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
